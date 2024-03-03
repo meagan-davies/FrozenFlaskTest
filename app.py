@@ -9,7 +9,7 @@ from flask_flatpages import FlatPages
 
 DEBUG = True
 FLATPAGES_AUTO_RELOAD = DEBUG
-FLATPAGES_EXTENSION = '.md'
+FLATPAGES_EXTENSION = '.html'
 
 template_folder = path.abspath('./wiki')
 
